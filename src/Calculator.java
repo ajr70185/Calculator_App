@@ -181,6 +181,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+    	System.out.println("Andrew Rhodes");
         JFrame frame = new JFrame("Calculator");
         frame.setContentPane(new Calculator().Calculator);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
